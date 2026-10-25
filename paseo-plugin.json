@@ -1,0 +1,15 @@
+{
+  "id": "paseo-pin",
+  "description": "新 workspace 自动置顶，支持本机连接与认证兜底。",
+  "requirements": {
+    "paseo": ">=0.9.1"
+  },
+  "build": [
+    [
+      "npm",
+      "ci",
+      "--omit=dev",
+      "--ignore-scripts"
+    ]
+  ]
+}
